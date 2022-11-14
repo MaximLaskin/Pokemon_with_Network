@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PokemobApp: Hashable, Codable {
-    let results: Pokemon
+    let results: [Pokemon]
 }
 
 struct Pokemon: Hashable, Codable {
